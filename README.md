@@ -22,10 +22,6 @@ git clone https://github.com/vhessel/srgan_tensorflow
 cd srgan_tensorflow
 ```
 2) Download the pre-trained CelebA model and extract it to the checkpoint directory
-```
-wget https://drive.google.com/open?id=1dzKXc63ZCAgT_X1cdgXVfjBaNzBQekdD ./checkpoint/
-tar zxfv /checkpoint/celeba.tar.gz
-```
 3) Put the images in the folder inference
 4) To load every image in the folder inference and write the super-resolution versions to folder output, simply run the following command:
 ```
